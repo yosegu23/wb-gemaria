@@ -30,28 +30,21 @@ const defaultSections = [
   {
     title: "Product",
     links: [
-      { name: "Overview", href: "#" },
-      { name: "Pricing", href: "#" },
-      { name: "Marketplace", href: "#" },
-      { name: "Features", href: "#" },
+      { name: "Kirin", href: "#" },
+      { name: "Turbo", href: "#" },
+      { name: "Polytron", href: "#" },
+      { name: "Sharp", href: "#" },
+      { name: "LG", href: "#" },
+      { name: "Dahua", href: "#" },
+      { name: "Hikvision", href: "#" },
+      { name: "Hilook", href: "#" },
     ],
   },
   {
     title: "Company",
     links: [
       { name: "About", href: "#" },
-      { name: "Team", href: "#" },
-      { name: "Blog", href: "#" },
-      { name: "Careers", href: "#" },
-    ],
-  },
-  {
-    title: "Resources",
-    links: [
-      { name: "Help", href: "#" },
-      { name: "Sales", href: "#" },
-      { name: "Advertise", href: "#" },
-      { name: "Privacy", href: "#" },
+      { name: "Contact", href: "#" },
     ],
   },
 ];
@@ -73,12 +66,12 @@ export const Footer7 = ({
     url: "https://www.shadcnblocks.com",
     src: "https://www.shadcnblocks.com/images/block/logos/shadcnblockscom-icon.svg",
     alt: "logo",
-    title: "Shadcnblocks.com",
+    title: "Gemaria Elektronik",
   },
   sections = defaultSections,
-  description = "A collection of components for your startup business or side project.",
+  description = "Gemaria Elektronik — solusi elektronik rumah tangga berkualitas, bergaransi, dan terpercaya.",
   socialLinks = defaultSocialLinks,
-  copyright = "© 2024 Shadcnblocks.com. All rights reserved.",
+  copyright = "© 2025 Gemaria Elektronik by Wheelbox. All rights reserved.",
   legalLinks = defaultLegalLinks,
 }: Footer7Props) => {
   return (

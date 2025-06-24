@@ -4,38 +4,38 @@ const demoData = {
   features: [
     {
       id: 1,
-      title: "Ready-to-Use UI Blocks",
+      title: "1. Apakah produk di Gemaria Elektronik bergaransi resmi?",
       image: "https://shadcnblocks.com/images/block/placeholder-1.svg",
       description:
-        "Browse through our extensive collection of pre-built UI blocks designed with shadcn/ui. Each block is carefully crafted to be responsive, accessible, and easily customizable. Simply copy and paste the code into your project.",
+        "Ya, semua produk yang kami jual adalah 100% original dan dilengkapi dengan garansi resmi pabrik sesuai dengan merek masing-masing.",
     },
     {
       id: 2,
-      title: "Tailwind CSS & TypeScript",
+      title: "2. Apakah tersedia layanan pemasangan untuk AC dan CCTV?",
       image: "https://shadcnblocks.com/images/block/placeholder-2.svg",
       description:
-        "Built with Tailwind CSS for rapid styling and TypeScript for type safety. Our blocks leverage the full power of Tailwind's utility classes while maintaining clean, type-safe code that integrates seamlessly with your Next.js projects.",
+        "Tersedia! Kami menyediakan layanan instalasi profesional oleh teknisi berpengalaman untuk AC, CCTV, dan produk lain yang memerlukan pemasangan.",
     },
     {
       id: 3,
-      title: "Dark Mode & Customization",
+      title: "3. Berapa lama proses pengiriman produk?",
       image: "https://shadcnblocks.com/images/block/placeholder-3.svg",
       description:
-        "Every block supports dark mode out of the box and can be customized to match your brand. Modify colors, spacing, and typography using Tailwind's configuration. The shadcn/ui theming system makes it easy to maintain consistency across your site.",
+        "Pengiriman dilakukan 1–2 hari kerja untuk area terjangkau, dan maksimal 5 hari kerja untuk area luar jangkauan, tergantung lokasi Anda.",
     },
     {
       id: 4,
-      title: "Accessibility First",
+      title: "4. Apakah bisa membeli produk secara kredit atau cicilan?",
       image: "https://shadcnblocks.com/images/block/placeholder-4.svg",
       description:
-        "All blocks are built with accessibility in mind, following WCAG guidelines. They include proper ARIA labels, keyboard navigation support, and semantic HTML structure. Ensure your website is usable by everyone without extra effort.",
+        "Bisa! Kami mendukung pembayaran melalui cicilan menggunakan kartu kredit dan beberapa layanan paylater tertentu (syarat & ketentuan berlaku).",
     },
     {
       id: 5,
-      title: "Modern Development Stack",
+      title: "5. Bagaimana cara menghubungi layanan pelanggan Gemaria Elektronik?",
       image: "https://shadcnblocks.com/images/block/placeholder-5.svg",
       description:
-        "Built for modern web development with React 18, Next.js 14, and the latest shadcn/ui components. Take advantage of React Server Components, TypeScript strict mode, and other cutting-edge features while maintaining excellent performance.",
+        "Anda bisa menghubungi kami melalui WhatsApp, telepon, atau media sosial. Tim kami siap membantu setiap hari kerja dengan respon cepat.",
     },
   ],
 };
