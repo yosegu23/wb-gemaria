@@ -32,9 +32,6 @@ const defaultSections = [
     links: [
       { name: "Kirin", href: "#" },
       { name: "Turbo", href: "#" },
-      { name: "Polytron", href: "#" },
-      { name: "Sharp", href: "#" },
-      { name: "LG", href: "#" },
       { name: "Dahua", href: "#" },
       { name: "Hikvision", href: "#" },
       { name: "Hilook", href: "#" },

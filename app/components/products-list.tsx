@@ -27,6 +27,7 @@ import { ButtonHilook } from "./button-hilook";
 import { ButtonKirin } from "./button-kirin";
 import { ButtonTurbo } from "./button-turbo";
 import { ComboboxCategories } from "./combobox-category";
+import Link from "next/link";
 
 const ProductsList = () => {
   const flatProducts = products.flat();
@@ -105,35 +106,36 @@ const ProductsList = () => {
 
       <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 lg:p-8">
         {shuffledProducts.map((product) => (
-          <Card key={product.id} className="w-full flex justify-between h-auto">
-            <CardHeader>
-              <CardTitle>{product.brands}</CardTitle>
-              <CardDescription>{product.category}</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-3">
-              <div className="relative w-full h-48">
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  fill
-                  className="object-contain rounded-xl"
-                />
-              </div>
-              <p className="font-semibold text-lg text-primary">
-                {product.price}
-              </p>
-              <span className="text-muted-foreground">{product.name}</span>
-            </CardContent>
-            <CardFooter className="flex-col gap-2">
-              <Button type="submit" className="w-full">
-                Purchase
-              </Button>
-            </CardFooter>
-          </Card>
+          <Link key={product.id} href={`/products/${product.slug}`}>
+            <Card className="w-full flex justify-between h-auto">
+              <CardHeader>
+                <CardTitle>{product.brands}</CardTitle>
+                <CardDescription>{product.category}</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <div className="relative w-full h-48">
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    className="object-contain rounded-xl"
+                  />
+                </div>
+                <p className="font-semibold text-lg text-primary">
+                  {product.price}
+                </p>
+                <span className="text-muted-foreground">{product.name}</span>
+              </CardContent>
+              <CardFooter className="flex-col gap-2">
+                <Button type="submit" className="w-full">
+                  Purchase
+                </Button>
+              </CardFooter>
+            </Card>
+          </Link>
         ))}
       </div>
 
-      {/* Pagination */}
       {totalPages > 1 && (
         <Pagination className="p-12">
           <PaginationContent>

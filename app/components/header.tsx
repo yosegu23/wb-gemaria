@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logo from "@/public/logo/logo_gemaria.svg";
+// import logo from "@/public/logo/logo_gemaria.svg";
 
 
 const menuItems = [
@@ -31,7 +31,7 @@ const Header = () => {
                   aria-label="home"
                   className="flex items-center space-x-2">
                   <Image
-                    src={logo}
+                    src="/logo/logo_gemaria.svg"
                     alt="Gemaria Elektronik Logo"
                     width={75}
                     height={75}
