@@ -3,9 +3,10 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { products } from "@/data/products";
 import type { StaticImageData } from "next/image";
-import Header from "@/app/components/header";
 import { Button } from "@/components/ui/button";
 import { Footer7 } from "@/components/ui/footer-ui";
+import Headbar from "@/app/components/headbar";
+import Link from "next/link";
 
 type Product = {
   id: number;
@@ -40,7 +41,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
 
   return (
     <>
-      <Header />
+      <Headbar />
       <div className="p-8 w-full mx-auto flex flex-row justify-between">
         <div className="relative w-full h-64 mb-4">
           <Image
@@ -63,7 +64,14 @@ export default async function ProductDetailPage({ params }: PageProps) {
             Description: {product.description}
           </p>
           <div className="py-8">
-            <Button>Purchase</Button>
+            <Button asChild size="sm">
+              <Link
+                href={`https://wa.me/6287722887555?text=${encodeURIComponent(
+                  `Halo, saya ingin menanyakan tentang produk *${product.name}*. Apakah masih tersedia?`
+                )}`}  target="_blank">
+                <span>Beli Sekarang</span>
+              </Link>
+            </Button>
           </div>
         </div>
       </div>

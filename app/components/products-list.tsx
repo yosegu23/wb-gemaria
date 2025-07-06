@@ -104,7 +104,7 @@ const ProductsList = () => {
         </div>
       </div>
 
-      <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 lg:p-8">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 lg:p-8">
         {shuffledProducts.map((product) => (
           <Link key={product.id} href={`/products/${product.slug}`}>
             <Card className="w-full flex justify-between h-auto">

@@ -5,29 +5,93 @@ import { TestimonialsSection } from "@/components/testimonials-with-marquee"
 const testimonials = [
   {
     author: {
-      name: "Emma Thompson",
-      handle: "@emmaai",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face"
+      name: "Rizky Hidayat",
+      handle: "@rizky_h",
+      avatar: "https://randomuser.me/api/portraits/men/32.jpg"
     },
-    text: "Using this AI platform has transformed how we handle data analysis. The speed and accuracy are unprecedented.",
-    href: "https://twitter.com/emmaai"
+    text: "Beli kulkas di Gemaria Shop, datangnya cepat dan kondisi mulus banget. Harganya juga bersaing. Recommended banget!",
+    href: "#"
   },
   {
     author: {
-      name: "David Park",
-      handle: "@davidtech",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      name: "Ayu Lestari",
+      handle: "@ayules",
+      avatar: "https://randomuser.me/api/portraits/women/45.jpg"
     },
-    text: "The API integration is flawless. We've reduced our development time by 60% since implementing this solution.",
-    href: "https://twitter.com/davidtech"
+    text: "Saya beli mesin cuci di Gemaria dan langsung jatuh hati. Proses transaksi gampang dan stafnya responsif.",
+    href: "#"
   },
   {
     author: {
-      name: "Sofia Rodriguez",
-      handle: "@sofiaml",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face"
+      name: "Dimas Pratama",
+      handle: "@dimprat",
+      avatar: "https://randomuser.me/api/portraits/men/68.jpg"
     },
-    text: "Finally, an AI tool that actually understands context! The accuracy in natural language processing is impressive."
+    text: "Pelayanan cepat, TV LED 43 inch sampai dengan aman dan packingnya rapi. Kualitas barang sesuai deskripsi!",
+    href: "#"
+  },
+  {
+    author: {
+      name: "Lina Marlina",
+      handle: "@linamarlin",
+      avatar: "https://randomuser.me/api/portraits/women/29.jpg"
+    },
+    text: "Gemaria Shop selalu jadi andalan keluarga kami beli elektronik. Sudah 3x order dan selalu puas.",
+    href: "#"
+  },
+  {
+    author: {
+      name: "Fajar Nugraha",
+      handle: "@fajarnu",
+      avatar: "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    text: "Beli AC hemat energi di sini, pelayanannya ramah dan pengiriman kilat. Terbaik sih!",
+    href: "#"
+  },
+  {
+    author: {
+      name: "Nadya Fitriani",
+      handle: "@nadyaftr",
+      avatar: "https://randomuser.me/api/portraits/women/61.jpg"
+    },
+    text: "Gemaria bener-bener ngerti kebutuhan rumah tangga. Blender yang saya beli awet dan berkualitas.",
+    href: "#"
+  },
+  {
+    author: {
+      name: "Yusuf Maulana",
+      handle: "@yusufmln",
+      avatar: "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    text: "Proses pemesanan simpel, customer service sabar banget bantuin saya pilih sound system yang pas.",
+    href: "#"
+  },
+  {
+    author: {
+      name: "Tari Andini",
+      handle: "@tariandn",
+      avatar: "https://randomuser.me/api/portraits/women/39.jpg"
+    },
+    text: "Beli microwave dan sangat puas. Barang original, garansi resmi, dan pengiriman super cepat.",
+    href: "#"
+  },
+  {
+    author: {
+      name: "Arif Setiawan",
+      handle: "@arifset",
+      avatar: "https://randomuser.me/api/portraits/men/59.jpg"
+    },
+    text: "Gemaria Shop selalu update produk terbaru. Beli smart TV kemarin langsung dikirim hari itu juga!",
+    href: "#"
+  },
+  {
+    author: {
+      name: "Melani Putri",
+      handle: "@melaniputri",
+      avatar: "https://randomuser.me/api/portraits/women/77.jpg"
+    },
+    text: "Suka banget sama pelayanan after sales-nya. Gemaria bantu saya klaim garansi tanpa ribet.",
+    href: "#"
   }
 ]
 

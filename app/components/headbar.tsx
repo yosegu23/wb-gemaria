@@ -8,10 +8,10 @@ import { Menu, X } from 'lucide-react'
 import { Button } from "@/components/ui/button";
 
 const menuItems = [
-  { name: "Home", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Products", href: "#" },
-  { name: "Testimonials", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/" },
+  { name: "Products", href: "/products" },
+  { name: "Testimonials", href: "/" },
 ];
 
 const Headbar = () => {

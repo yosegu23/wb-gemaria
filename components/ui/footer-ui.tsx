@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 interface Footer7Props {
   logo?: {
@@ -41,16 +41,14 @@ const defaultSections = [
     title: "Company",
     links: [
       { name: "About", href: "#" },
-      { name: "Contact", href: "#" },
+      { name: "Contact", href: "https://wa.me/6287722887555" },
     ],
   },
 ];
 
 const defaultSocialLinks = [
-  { icon: <FaInstagram className="size-5" />, href: "#", label: "Instagram" },
-  { icon: <FaFacebook className="size-5" />, href: "#", label: "Facebook" },
-  { icon: <FaTwitter className="size-5" />, href: "#", label: "Twitter" },
-  { icon: <FaLinkedin className="size-5" />, href: "#", label: "LinkedIn" },
+  { icon: <FaInstagram className="size-5" />, href: "https://www.instagram.com/gemaria_shop/?hl=en", label: "Instagram" },
+  { icon: <FaWhatsapp className="size-5" />, href: "https://wa.me/6287722887555", label: "WhatsApp" },
 ];
 
 const defaultLegalLinks = [
@@ -60,9 +58,9 @@ const defaultLegalLinks = [
 
 export const Footer7 = ({
   logo = {
-    url: "https://www.shadcnblocks.com",
-    src: "https://www.shadcnblocks.com/images/block/logos/shadcnblockscom-icon.svg",
-    alt: "logo",
+    url: "/",
+    src: "/logo/logo_gemaria.svg",
+    alt: "Gemaria",
     title: "Gemaria Elektronik",
   },
   sections = defaultSections,
