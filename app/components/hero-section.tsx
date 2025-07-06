@@ -7,24 +7,16 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import dahua from "@/public/logo-brands/dahua.svg";
-import hikvision from "@/public/logo-brands/hikvision.svg";
-import hilook from "@/public/logo-brands/hilook.svg";
-import kirin from "@/public/logo-brands/kirin.svg";
-import lg from "@/public/logo-brands/lg.svg";
-import polytron from "@/public/logo-brands/polytron.svg";
-import sharp from "@/public/logo-brands/sharp.svg";
-import turbo from "@/public/logo-brands/turbo.svg";
 
 const brandLogos = [
-  { src: dahua, alt: "Dahua", height: 20 },
-  { src: hikvision, alt: "Hikvision", height: 20 },
-  { src: hilook, alt: "HiLook", height: 20 },
-  { src: kirin, alt: "Kirin", height: 20 },
-  { src: lg, alt: "LG", height: 20 },
-  { src: polytron, alt: "Polytron", height: 20 },
-  { src: sharp, alt: "Sharp", height: 20 },
-  { src: turbo, alt: "Turbo", height: 20 },
+  { src: "/logo-brands/dahua.svg", alt: "Dahua", height: 20 },
+  { src: "/logo-brands/hikvision.svg", alt: "Hikvision", height: 20 },
+  { src: "/logo-brands/hilook.svg", alt: "HiLook", height: 20 },
+  { src: "/logo-brands/kirin.svg", alt: "Kirin", height: 20 },
+  { src: "/logo-brands/lg.svg", alt: "LG", height: 20 },
+  { src: "/logo-brands/polytron.svg", alt: "Polytron", height: 20 },
+  { src: "/logo-brands/sharp.svg", alt: "Sharp", height: 20 },
+  { src: "/logo-brands/turbo.svg", alt: "Turbo", height: 20 },
 ];
 
 const HeroSection = () => {
