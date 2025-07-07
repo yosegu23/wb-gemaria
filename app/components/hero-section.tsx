@@ -17,6 +17,12 @@ const brandLogos = [
   { src: "/logo-brands/polytron.svg", alt: "Polytron", height: 20 },
   { src: "/logo-brands/sharp.svg", alt: "Sharp", height: 20 },
   { src: "/logo-brands/turbo.svg", alt: "Turbo", height: 20 },
+  { src: "/logo-brands/cosmos.svg", alt: "Cosmos", height: 20 },
+  { src: "/logo-brands/gea.svg", alt: "GEA", height: 20 },
+  { src: "/logo-brands/miyako.svg", alt: "Miyako", height: 20 },
+  { src: "/logo-brands/rinnai.svg", alt: "Rinnai", height: 20 },
+  { src: "/logo-brands/rsa.svg", alt: "RSA", height: 20 },
+  { src: "/logo-brands/tcl.svg", alt: "TCL", height: 20 },
 ];
 
 const HeroSection = () => {
