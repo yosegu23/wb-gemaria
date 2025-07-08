@@ -33,8 +33,9 @@ function Case() {
     <div className="w-full py-2">
       <div className="container mx-auto">
         <div className="flex flex-col gap-10">
-          <h2 className="text-xl md:text-3xl tracking-tighter lg:max-w-xl font-regular text-left">
-            Trusted by thousands of businesses worldwide
+          <h2 className="text-xl md:text-3xl tracking-tighter lg:max-w-xl font-regular text-left text-balance p-4 lg:p-10">
+            Testimoni pelanggan kami yang telah menggunakan membeli produk
+            kami, mereka sangat puas dengan pelayanan dan produk yang kami.
           </h2>
           <Carousel setApi={setApi} className="w-full">
             <CarouselContent>
