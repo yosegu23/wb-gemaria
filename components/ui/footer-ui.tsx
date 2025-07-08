@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import React from "react";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
@@ -44,11 +45,22 @@ const defaultSections = [
       { name: "Contact", href: "https://wa.me/6287722887555" },
     ],
   },
+  {
+    title: "Contact",
+    links: [
+      { name: "WhatsApp", href: "https://wa.me/6287722887555" },
+      { name: "Instagram", href: "https://www.instagram.com/gemaria_shop/?hl=en" },
+      { name: "Shopee", href: "https://shopee.co.id/gemariashop?entryPoint=ShopBySearch&searchKeyword=gemaria%20shop"},
+      { name: "Tokopedia", href: "https://www.tokopedia.com/gemaria-online?entrance_name=search_suggestion_store&source=universe&st=product"},
+    ]
+  }
 ];
 
 const defaultSocialLinks = [
   { icon: <FaInstagram className="size-5" />, href: "https://www.instagram.com/gemaria_shop/?hl=en", label: "Instagram" },
   { icon: <FaWhatsapp className="size-5" />, href: "https://wa.me/6287722887555", label: "WhatsApp" },
+  { icon: <Image src="/logo/tokopedia.png" alt="Tokopedia" width={20} height={20} />, href: "https://www.tokopedia.com/gemaria-online?entrance_name=search_suggestion_store&source=universe&st=product", label: "Shopee" },
+  { icon: <Image src="/logo/shopee.png" alt="Shopee" width={15} height={15} />, href: "https://shopee.co.id/gemariashop?entryPoint=ShopBySearch&searchKeyword=gemaria%20shop", label: "Shopee" },
 ];
 
 const defaultLegalLinks = [
@@ -74,7 +86,6 @@ export const Footer7 = ({
       <div className="container mx-auto">
         <div className="flex w-full flex-col justify-between gap-10 lg:flex-row lg:items-start lg:text-left">
           <div className="flex w-full flex-col justify-between gap-6 lg:items-start">
-            {/* Logo */}
             <div className="flex items-center gap-2 lg:justify-start">
               <a href={logo.url}>
                 <img
