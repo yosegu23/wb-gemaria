@@ -8,6 +8,7 @@ import { Feature197Demo } from "./components/faq-section";
 import { TestimonialsSectionDemo } from "./components/testimonials-section";
 import HeroSection from "./components/hero-section";
 import Header from "./components/header";
+import { Gallery } from "./components/gallery";
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -25,6 +26,7 @@ export default function Home() {
         <div ref={testiRef}>
           <TestimonialsSectionDemo />
         </div>
+        <Gallery />
         <Feature197Demo />
         <Footer7 />
       </div>
